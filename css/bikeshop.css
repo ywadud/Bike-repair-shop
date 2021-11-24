@@ -1,0 +1,144 @@
+body {
+  background-color: #fc5e55; 
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+}
+
+.container {
+    width:1024px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+   /* min-height: 300px; */ 
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-color: yellow;
+    background-image: url(image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+
+}
+
+.card2 {
+    background-color: red;
+    background-image: url(image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+
+}
+
+.card3 {
+    background-color: blue;
+    background-image: url(image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+
+}
+
+.herobox1 {
+    width: 50%;
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    width: 50%;
+    background-color: cornflowerblue;
+    flex: 1;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    /****  Top - Right - Bottom - Left */
+    margin-top: 10px; 
+
+}
+
+.cards i {
+    font-size: 100px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.mybutton {
+    background-color: white;
+    color:#fc5e55;
+    font-family: 'Roboto', sans-serif;
+    padding: 11px 25px;
+    display:inline-block;
+    margin-top: 20px;
+    border-radius: 2px;
+
+   /* x y blur color - blur means it will blury the color*/
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+
+
+
+}
+
+a.mybutton {
+    display:inline-block;
+    margin-top: 20px;
+}
+
+nav a.mybutton {
+    margin: left 30px;
+}
